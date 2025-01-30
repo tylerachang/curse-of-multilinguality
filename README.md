@@ -1,5 +1,5 @@
 # curse-of-multilinguality
-Code for the paper, [When is Multilinguality a Curse? Language Modeling for 250 High- and Low-Resource Languages](https://arxiv.org/abs/2311.09205) (2023).
+Code for the paper, [When is Multilinguality a Curse? Language Modeling for 250 High- and Low-Resource Languages](https://arxiv.org/abs/2311.09205) (EMNLP 2024).
 Includes code for preparing pre-training (e.g. tokenizers and data) for multilingual language models.
 Language models are pre-trained using: https://github.com/tylerachang/word-acquisition-language-models.
 We automate these scripts for our multilingual language modeling experiments.
@@ -185,11 +185,11 @@ To run all compiles, use ```run_compiles.sh```.
 
 ## Citation.
 <pre>
-@article{chang-etal-2023-multilinguality,
+@inproceedings{chang-etal-2024-multilinguality,
   title={When is Multilinguality a Curse? {L}anguage Modeling for 250 High- and Low-Resource Languages},
   author={Tyler A. Chang and Catherine Arnett and Zhuowen Tu and Benjamin K. Bergen},
-  journal={arXiv preprint},
-  year={2023},
+  booktitle={Proceedings of the Conference on Empirical Methods in Natural Language Processing},
+  year={2024},
   url={https://arxiv.org/abs/2311.09205}
 }
 </pre>
